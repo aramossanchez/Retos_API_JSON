@@ -1,5 +1,5 @@
 const FabricanteRouter = require("./views/FabricanteRouter.js");
-const ArticuloRouter = require("./views/ArticuloRouter.js");
+const ArticuloRouter = require("./views/ArticuloRouter");
 
 const router = require("express").Router();
 

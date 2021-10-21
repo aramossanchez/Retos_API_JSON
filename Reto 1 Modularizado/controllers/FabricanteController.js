@@ -12,8 +12,8 @@ FabricanteController.getById = (req,res) =>{
 
 FabricanteController.postFabricante = (req, res) =>{
     const id = req.body.id;
-    const title = req.body.title;
-    res.json(fabricantes.post({id, title}));
+    const Nombre = req.body.Nombre;
+    res.json(fabricantes.post({id, Nombre}));
 };
 
 FabricanteController.updateFabricante = (req,res) => {

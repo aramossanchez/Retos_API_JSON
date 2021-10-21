@@ -7,10 +7,10 @@ router.get("/", ArticuloController.getAll);
 
 router.get("/:id", ArticuloController.getById);
 
-router.post("/", ArticuloController.postArticulos);
+router.post("/", ArticuloController.postArticulo);
 
-router.put("/:id", ArticuloController.updateArticulos);
+router.put("/:id", ArticuloController.updateArticulo);
 
-router.delete("/:id", ArticuloController.deleteArticulos);
+router.delete("/:id", ArticuloController.deleteArticulo);
 
 module.exports = router;
